@@ -73,4 +73,4 @@ if (check_if_valid_LDE(a,b,c)):
     print(X,Y)
     print("%d * %d + %d = %d = %d = %d * %d" % (a, X, c, a * X + c, b * Y, b, Y))
 else:
-    print("Not a valid LDE since gcd(a,b) does not evenly divide c.")
+    print("No solution since gcd(a,b) does not evenly divide c to give an integer.")
